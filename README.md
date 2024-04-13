@@ -32,7 +32,7 @@ Sparser Relative Bundle Adjustment -  Это метод, который испо
 
 файл config.yaml - файл с конфигурацией видеокамеры.
 
-файл map.msg - файл с получившейся картой.
+[map.msg](https://disk.yandex.ru/d/ZCipDd8Nnxs1ZA)- файл с получившейся картой.
 
 ## Необходимые библиотеки
 Eigen : version 3.3.0 or later.
@@ -51,8 +51,8 @@ OpenCV : version 3.3.1 or later.
 
 
 ## Запуск программы
-
- ./run_video_slam -v ./orb_vocab.fbow -m ./2.mp4 -c ./config.yaml --frame-skip 3 --no-sleep --map-db-out map.msg
+##
+   code/ ./run_video_slam -v ./orb_vocab.fbow -m ./2.mp4 -c ./config.yaml --frame-skip 3 --no-sleep --map-db-out map.msg
 
 ## Полученная карта
 
