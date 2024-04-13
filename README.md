@@ -20,4 +20,28 @@ Double Window Optimization -
 Stereo DSO  - 
 
 ## Файлы решения
+папка Videos - папка в которой содержатся видео с демонстрацией работы программы
+папка Images - папка в которой содержатся фото финальной карты
+файл config.yaml - файл с конфигурацией видеокамеры
+файл map.msg - файл с получившейся картой
+
+## Необходимые библиотеки
+Eigen : version 3.3.0 or later.
+
+g2o : 20230223_git or later. 20230223_git is recommended.
+
+SuiteSparse : Required by g2o.
+
+FBoW : Please use the custom version of FBoW released in [source](https://github.com/stella-cv/FBoW).
+
+yaml-cpp : version 0.6.0 or later.
+
+OpenCV : version 3.3.1 or later.
+[Stella_Vslam](https://github.com/stella-cv/stella_vslam)
+
+output:
+  md_document:
+    variant: markdown_github
+bibliography: bibliography.bib
+
 
