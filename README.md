@@ -58,6 +58,9 @@ OpenCV : version 3.3.1 or later.
 
 ![final_map](https://github.com/gsgol/MindSet_test/assets/77744037/973d14fd-b53e-4c21-bac7-148070008afe)
 
+## Полученные видео
+[Map_overview.webm](https://github.com/gsgol/MindSet_test/assets/77744037/2534170e-d09e-4661-bc3e-ee6f8efc1d57)
+
 ## References
 @inproceedings{openvslam2019,
 
