@@ -51,17 +51,24 @@ OpenCV : version 3.3.1 or later.
 
 
 ## Запуск программы
-##
-   code/ ./run_video_slam -v ./orb_vocab.fbow -m ./2.mp4 -c ./config.yaml --frame-skip 3 --no-sleep --map-db-out map.msg
+./run_video_slam -v ./orb_vocab.fbow -m ./2.mp4 -c ./config.yaml --frame-skip 3 --no-sleep --map-db-out map.msg
 
 ## Полученная карта
 
 ![final_map](https://github.com/gsgol/MindSet_test/assets/77744037/973d14fd-b53e-4c21-bac7-148070008afe)
 
 ## Полученные видео
+
+### Map overwiew
+
 [Map_overview.webm](https://github.com/gsgol/MindSet_test/assets/77744037/2534170e-d09e-4661-bc3e-ee6f8efc1d57)
 
+### Process
+
+[Process.webm](https://github.com/gsgol/MindSet_test/assets/77744037/c9f46bc0-cd2c-459a-94eb-3b6855a06e99)
+
 ## References
+
 @inproceedings{openvslam2019,
 
   author = {Sumikura, Shinya and Shibuya, Mikiya and Sakurada, Ken},
